@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/QuickChat/static/css/main.b12cae02.chunk.css",
+    "main.js": "/QuickChat/static/js/main.8bce0e6e.chunk.js",
+    "main.js.map": "/QuickChat/static/js/main.8bce0e6e.chunk.js.map",
+    "runtime-main.js": "/QuickChat/static/js/runtime-main.fef37ce7.js",
+    "runtime-main.js.map": "/QuickChat/static/js/runtime-main.fef37ce7.js.map",
+    "static/js/2.75d8292b.chunk.js": "/QuickChat/static/js/2.75d8292b.chunk.js",
+    "static/js/2.75d8292b.chunk.js.map": "/QuickChat/static/js/2.75d8292b.chunk.js.map",
+    "index.html": "/QuickChat/index.html",
+    "precache-manifest.fce217dbffa60a421cc570fb8c4bd978.js": "/QuickChat/precache-manifest.fce217dbffa60a421cc570fb8c4bd978.js",
+    "service-worker.js": "/QuickChat/service-worker.js",
+    "static/css/main.b12cae02.chunk.css.map": "/QuickChat/static/css/main.b12cae02.chunk.css.map",
+    "static/js/2.75d8292b.chunk.js.LICENSE.txt": "/QuickChat/static/js/2.75d8292b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fef37ce7.js",
+    "static/js/2.75d8292b.chunk.js",
+    "static/css/main.b12cae02.chunk.css",
+    "static/js/main.8bce0e6e.chunk.js"
+  ]
+}
