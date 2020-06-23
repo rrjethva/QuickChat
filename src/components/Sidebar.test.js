@@ -2,15 +2,15 @@ import React from 'react';
 import Enzyme from 'enzyme';
 import { mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import AddMessage from './AddMessage';
+import Sidebar from './Sidebar';
 
 const setup = () => {
     const props = {
         users: [],
         addUser: jest.fn()
-    }
+    };
     Enzyme.configure({ adapter: new Adapter() });
-    const enzymeWrapper = mount(<AddMessage {...props} />);
+    const enzymeWrapper = mount(<Sidebar {...props} />);
 
     return {
         props,
@@ -18,9 +18,9 @@ const setup = () => {
     };
 };
 
-describe('AddMessage', () => {
+describe('Sidebar', () => {
     it('should render self', () => {
         const { enzymeWrapper } = setup();
-        expect(enzymeWrapper.find('section#new-message').length.toBe(1))
+        expect(enzymeWrapper.find('aside').length).toBe(1);
     });
 });
